@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../image/kangaroo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/agradecimentos.css" />
+  
+
+    <title>Jogo da Memória</title>
+</head>
+<body>
+    <main>
+        <div class="agradecimentos">
+            <h1>Agradecimentos</h1>
+            <ul class="lista-times">
+                <li class="time">
+                    <h4>Time de desenvolvedor</h4>
+                    <ul class="lista-nomes">
+                        <li>Bia</li>
+                        <li>Mais um</li>
+                    </ul>
+                </li>
+                <li class="time">
+                    <h4>Time de design</h4>
+                    <ul class="lista-nomes">
+                        <li>Alicia</li>
+                        <li>Pedro</li>
+                        <li>João Pedro</li>
+                        <li>Allan</li>
+                    </ul>
+                </li>
+                <li class="time">
+                    <h4>Time de imagens</h4>
+                    <ul class="lista-nomes">
+                        <li>Bia</li>
+                        <li>Gabriel</li>
+                        <li>Gabriela</li>
+                    </ul>
+                </li>
+                <li class="time">
+                    <h4>Time de criatividade</h4>
+                    <ul class="lista-nomes">
+                        <li>Catharina</li>
+                        <li>Mafe</li>
+                        <li>Lara</li>
+                    </ul>
+                </li>       
+                <li class="time">
+                    <h4>Time de QA</h4>
+                    <ul class="lista-nomes">
+                        <li>Max</li>
+                        <li>Lucas</li>
+                        <li>Davi</li>
+                        <li>Matheus</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <button type="button" class="button">Voltar</button>
+    </main>
+
+    <script>
+        
+        const handleButton = () => {
+            window.location = '../index.html'
+        }
+
+        const button = document.querySelector('.button')
+        button.addEventListener('click', handleButton)
+    </script>
+</body>
+</html>
